@@ -1,0 +1,94 @@
+action: GLOB, msg: packaging
+cwd: /home/ana/Documentos/I18N/fpg
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir /home/ana/Documentos/I18N/fpg/.tox/dist
+Warning: 'classifiers' should be a list, got type 'tuple'
+running sdist
+running egg_info
+writing freegames.egg-info/PKG-INFO
+writing dependency_links to freegames.egg-info/dependency_links.txt
+writing top-level names to freegames.egg-info/top_level.txt
+reading manifest file 'freegames.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'freegames.egg-info/SOURCES.txt'
+running check
+creating freegames-2.3.2
+creating freegames-2.3.2/freegames
+creating freegames-2.3.2/freegames.egg-info
+copying files to freegames-2.3.2...
+copying LICENSE -> freegames-2.3.2
+copying MANIFEST.in -> freegames-2.3.2
+copying README.rst -> freegames-2.3.2
+copying setup.py -> freegames-2.3.2
+copying freegames/__init__.py -> freegames-2.3.2/freegames
+copying freegames/__main__.py -> freegames-2.3.2/freegames
+copying freegames/ant.py -> freegames-2.3.2/freegames
+copying freegames/bagels.py -> freegames-2.3.2/freegames
+copying freegames/bounce.py -> freegames-2.3.2/freegames
+copying freegames/cannon.py -> freegames-2.3.2/freegames
+copying freegames/car.gif -> freegames-2.3.2/freegames
+copying freegames/connect.py -> freegames-2.3.2/freegames
+copying freegames/crypto.py -> freegames-2.3.2/freegames
+copying freegames/fidget.py -> freegames-2.3.2/freegames
+copying freegames/flappy.py -> freegames-2.3.2/freegames
+copying freegames/guess.py -> freegames-2.3.2/freegames
+copying freegames/life.py -> freegames-2.3.2/freegames
+copying freegames/madlibs.py -> freegames-2.3.2/freegames
+copying freegames/maze.py -> freegames-2.3.2/freegames
+copying freegames/memory.py -> freegames-2.3.2/freegames
+copying freegames/minesweeper.py -> freegames-2.3.2/freegames
+copying freegames/pacman.py -> freegames-2.3.2/freegames
+copying freegames/paint.py -> freegames-2.3.2/freegames
+copying freegames/pong.py -> freegames-2.3.2/freegames
+copying freegames/simonsays.py -> freegames-2.3.2/freegames
+copying freegames/snake.py -> freegames-2.3.2/freegames
+copying freegames/tictactoe.py -> freegames-2.3.2/freegames
+copying freegames/tiles.py -> freegames-2.3.2/freegames
+copying freegames/tron.py -> freegames-2.3.2/freegames
+copying freegames/utils.py -> freegames-2.3.2/freegames
+copying freegames.egg-info/PKG-INFO -> freegames-2.3.2/freegames.egg-info
+copying freegames.egg-info/SOURCES.txt -> freegames-2.3.2/freegames.egg-info
+copying freegames.egg-info/dependency_links.txt -> freegames-2.3.2/freegames.egg-info
+copying freegames.egg-info/top_level.txt -> freegames-2.3.2/freegames.egg-info
+Writing freegames-2.3.2/setup.cfg
+creating /home/ana/Documentos/I18N/fpg/.tox/dist
+creating '/home/ana/Documentos/I18N/fpg/.tox/dist/freegames-2.3.2.zip' and adding 'freegames-2.3.2' to it
+adding 'freegames-2.3.2'
+adding 'freegames-2.3.2/freegames'
+adding 'freegames-2.3.2/freegames.egg-info'
+adding 'freegames-2.3.2/setup.py'
+adding 'freegames-2.3.2/setup.cfg'
+adding 'freegames-2.3.2/PKG-INFO'
+adding 'freegames-2.3.2/LICENSE'
+adding 'freegames-2.3.2/README.rst'
+adding 'freegames-2.3.2/MANIFEST.in'
+adding 'freegames-2.3.2/freegames/utils.py'
+adding 'freegames-2.3.2/freegames/life.py'
+adding 'freegames-2.3.2/freegames/crypto.py'
+adding 'freegames-2.3.2/freegames/tiles.py'
+adding 'freegames-2.3.2/freegames/flappy.py'
+adding 'freegames-2.3.2/freegames/paint.py'
+adding 'freegames-2.3.2/freegames/__init__.py'
+adding 'freegames-2.3.2/freegames/tictactoe.py'
+adding 'freegames-2.3.2/freegames/memory.py'
+adding 'freegames-2.3.2/freegames/pacman.py'
+adding 'freegames-2.3.2/freegames/guess.py'
+adding 'freegames-2.3.2/freegames/madlibs.py'
+adding 'freegames-2.3.2/freegames/cannon.py'
+adding 'freegames-2.3.2/freegames/snake.py'
+adding 'freegames-2.3.2/freegames/bounce.py'
+adding 'freegames-2.3.2/freegames/simonsays.py'
+adding 'freegames-2.3.2/freegames/connect.py'
+adding 'freegames-2.3.2/freegames/tron.py'
+adding 'freegames-2.3.2/freegames/maze.py'
+adding 'freegames-2.3.2/freegames/minesweeper.py'
+adding 'freegames-2.3.2/freegames/fidget.py'
+adding 'freegames-2.3.2/freegames/car.gif'
+adding 'freegames-2.3.2/freegames/bagels.py'
+adding 'freegames-2.3.2/freegames/pong.py'
+adding 'freegames-2.3.2/freegames/__main__.py'
+adding 'freegames-2.3.2/freegames/ant.py'
+adding 'freegames-2.3.2/freegames.egg-info/top_level.txt'
+adding 'freegames-2.3.2/freegames.egg-info/dependency_links.txt'
+adding 'freegames-2.3.2/freegames.egg-info/PKG-INFO'
+adding 'freegames-2.3.2/freegames.egg-info/SOURCES.txt'
+removing 'freegames-2.3.2' (and everything under it)
